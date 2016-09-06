@@ -160,6 +160,7 @@ body {
 }
 #container {
   position: relative;
+  font-family: "微软雅黑";
 }
 .mobile-nav-on {
   overflow: hidden;
