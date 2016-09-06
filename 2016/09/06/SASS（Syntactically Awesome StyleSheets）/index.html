@@ -1,0 +1,429 @@
+
+ <!DOCTYPE HTML>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="baidu_union_verify" content="d1952c66cf48912e21c18c7c581f382a">
+  <meta name="360-site-verification" content="67fbcc5a67f4c65c057315b28fa0b2c8" />
+<meta name="google-site-verification" content="2GzxQ0VtXwTSUdmGm6DzcmhTzM_I9QmzCb_pzpMzD88" />
+  
+    <title>iamwelk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+    
+    <meta name="author" content="louwk">
+    
+    <meta name="description" content="SASS（Syntactically Awesome StyleSheets）
+特色
+完全兼容css3
+在css基础上添加了扩展功能（如变量、嵌套、混合）
+对颜色和其他值进行操作的函数
+控制语句（if/else/while/each等）
+良好的格式
+
+
+语法
+SCSS （建议使用此种语法）
+SASS">
+    
+    
+    
+    
+    <link rel="alternate" href="atom.xml" title="iamwelk" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="stylesheet" href="/css/style.css">
+     
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.svg" alt="iamwelk" title="iamwelk"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="iamwelk">iamwelk</a></h1>
+				<a class="blog-motto">我的心愿也是，世界和平。。。</a>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜單">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">首页</a></li>
+					
+						<li><a href="/archives">归档</a></li>
+					
+					<li>
+					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="text" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:yoursite.com">
+					</form>
+					
+					</li>
+				</ul>
+                            </nav>			
+</div>
+
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2016/09/06/SASS（Syntactically Awesome StyleSheets）/" title="" itemprop="url"></a>
+  </h1>
+  <p class="article-author">By
+    
+      <a href="http://yoursite.com" title="louwk">louwk</a>
+    </p>
+  <p class="article-time">
+    <time datetime="2016-09-06T07:18:55.432Z" itemprop="datePublished">2016-09-06</time>
+    更新日期:<time datetime="2016-09-06T07:19:20.859Z" itemprop="dateModified">2016-09-06</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目錄</strong>
+		<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#SASS（Syntactically-Awesome-StyleSheets）"><span class="toc-number">1.</span> <span class="toc-text">SASS（Syntactically Awesome StyleSheets）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#特色"><span class="toc-number">1.1.</span> <span class="toc-text">特色</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#语法"><span class="toc-number">1.2.</span> <span class="toc-text">语法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#栗子"><span class="toc-number">1.3.</span> <span class="toc-text">栗子</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#其他"><span class="toc-number">1.4.</span> <span class="toc-text">其他</span></a></li></ol></li></ol>
+		</div>
+		
+		<h1 id="SASS（Syntactically-Awesome-StyleSheets）"><a href="#SASS（Syntactically-Awesome-StyleSheets）" class="headerlink" title="SASS（Syntactically Awesome StyleSheets）"></a>SASS（Syntactically Awesome StyleSheets）</h1><hr>
+<h2 id="特色"><a href="#特色" class="headerlink" title="特色"></a>特色</h2><ul>
+<li>完全兼容css3</li>
+<li>在css基础上添加了扩展功能（如变量、嵌套、混合）</li>
+<li>对颜色和其他值进行操作的函数</li>
+<li>控制语句（if/else/while/each等）</li>
+<li>良好的格式</li>
+</ul>
+<hr>
+<h2 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h2><ul>
+<li>SCSS （建议使用此种语法）</li>
+<li>SASS （无大括号）</li>
+</ul>
+<hr>
+<h2 id="栗子"><a href="#栗子" class="headerlink" title="栗子"></a>栗子</h2><ol>
+<li><p>变量 </p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line">$blue: #eeeeee;</div><div class="line"></div><div class="line">div &#123;</div><div class="line">	background-color: $blue;</div><div class="line">&#125;</div><div class="line"></div><div class="line">---------------------------------------------------------------------------------------------------</div><div class="line">//使用#&#123;&#125;可以将变量嵌入字符串</div><div class="line">$side: left;</div><div class="line"></div><div class="line">.rounded &#123;</div><div class="line">    border-#&#123;$side&#125;-radius: 5px;</div><div class="line">&#125; ===&gt;</div><div class="line">.rounded &#123;</div><div class="line">    border-left-radius: 5px;</div><div class="line">&#125;</div><div class="line">---------------------------------------------------------------------------------------------------</div><div class="line">//计算功能</div><div class="line">div &#123;</div><div class="line">    margin: (20px / 2);</div><div class="line">    padding: 10px + 5px;</div><div class="line">&#125; ===&gt;</div><div class="line">div &#123;</div><div class="line">    margin: 10px;</div><div class="line">    padding: 15px;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+<li><p>嵌套 </p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line">//元素嵌套</div><div class="line">div&#123;</div><div class="line">    h1 &#123;</div><div class="line">        color: red;</div><div class="line">    &#125;</div><div class="line">&#125; ===&gt;</div><div class="line">div h1 &#123;</div><div class="line">    color: red;</div><div class="line">&#125;</div><div class="line">---------------------------------------------------------------------------------------------------</div><div class="line">//属性嵌套</div><div class="line">p &#123;</div><div class="line">    border: &#123;</div><div class="line">        color: red;</div><div class="line">    &#125;</div><div class="line">&#125; ===&gt;</div><div class="line">p &#123;</div><div class="line">    border-color: red;</div><div class="line">&#125;</div><div class="line">---------------------------------------------------------------------------------------------------</div><div class="line">// 可以在子元素中用 &amp; 引用父元素</div><div class="line">a &#123;</div><div class="line">    &amp;:hover &#123;</div><div class="line">        color: #eee;</div><div class="line">    &#125;</div><div class="line">&#125; ===&gt;</div><div class="line">a:hover &#123;</div><div class="line">    color: #eee;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+<li><p>混合<br>Mixin有点像C语言的宏（从来没用过），是可以重用的代码块。使用include调用</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line">@mixin left &#123;</div><div class="line">    float: left;</div><div class="line">    margin-left: 10px;</div><div class="line">&#125;</div><div class="line">div &#123;</div><div class="line">    @include left;</div><div class="line">&#125; ===&gt;</div><div class="line">div &#123;</div><div class="line">    float: left;</div><div class="line">    margin-left: 10px;</div><div class="line">&#125;</div><div class="line">---------------------------------------------------------------------------------------------------</div><div class="line">//加入参数</div><div class="line">@mixin left($value: 10px) &#123;</div><div class="line">    float: left;</div><div class="line">    margin-right: $value;</div><div class="line">&#125;</div><div class="line">div &#123;</div><div class="line">    @include left(20px);</div><div class="line">&#125; ===&gt;</div><div class="line">div &#123;</div><div class="line">    float: left;</div><div class="line">    margin-right: 20px;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<ol>
+<li><p>控制</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div></pre></td><td class="code"><pre><div class="line">$height: 20px;</div><div class="line">div &#123;</div><div class="line">    @if $height &gt; 10px &#123;</div><div class="line">        margin-top: 10px;</div><div class="line">    &#125; @else &#123;</div><div class="line">        margin-top: 5px;</div><div class="line">    &#125;</div><div class="line">&#125; ===&gt;</div><div class="line">div &#123;</div><div class="line">    margin-top: 10px;</div><div class="line">&#125;</div><div class="line"></div><div class="line">---------------------------------------------------------------------------------------------------</div><div class="line">//while循环</div><div class="line">$i: 6;</div><div class="line">@while $i &gt; 0 &#123;</div><div class="line">    .item-#&#123;$i&#125; &#123;</div><div class="line">        width: 2em * $i;</div><div class="line">    &#125;</div><div class="line">    $i: $i - 2;</div><div class="line">&#125; ===&gt;</div><div class="line">.item-6 &#123;</div><div class="line">    width: 12em;</div><div class="line">&#125;</div><div class="line">.item-4 &#123;</div><div class="line">    width: 8em;</div><div class="line">&#125;</div><div class="line">.item-2 &#123;</div><div class="line">    width: 4em;</div><div class="line">&#125;</div><div class="line"></div><div class="line">---------------------------------------------------------------------------------------------------</div><div class="line">//each通for类似</div><div class="line">@for $i from 1 to 3 &#123;</div><div class="line">    .border-#&#123;$i&#125; &#123;</div><div class="line">        border: #&#123;$i&#125;px solid #eee;</div><div class="line">    &#125;</div><div class="line">&#125; ===&gt;</div><div class="line">.border-1 &#123;</div><div class="line">    border: 1px solid #eee;</div><div class="line">&#125;</div><div class="line">.border-2 &#123;</div><div class="line">    border: 2px solid #eee;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+<li><p>函数</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">//内置函数，如lighten，darken，grayscale，complement等</div><div class="line">div &#123;</div><div class="line">    color: lighten(#ccc, 10%);</div><div class="line">&#125; ===&gt;</div><div class="line">div &#123;</div><div class="line">    color: #e6e6e6;</div><div class="line">&#125;</div><div class="line"></div><div class="line">---------------------------------------------------------------------------------------------------</div><div class="line">//自定义函数</div><div class="line">@function double($n) &#123;</div><div class="line">    @return $n * 2;</div><div class="line">&#125;</div><div class="line"></div><div class="line">div &#123;</div><div class="line">    width: double(5px);</div><div class="line">&#125; ===&gt;</div><div class="line">div &#123;</div><div class="line">    width: 10px;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<hr>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
+<li>在线编译地址 （<a href="http://www.sassmeister.com/）" target="_blank" rel="external">http://www.sassmeister.com/）</a></li>
+<li>参考链接<ul>
+<li>阮一峰的网络日志（<a href="http://www.ruanyifeng.com/blog/2012/06/sass.html）" target="_blank" rel="external">http://www.ruanyifeng.com/blog/2012/06/sass.html）</a></li>
+<li>官网（<a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html）" target="_blank" rel="external">http://sass-lang.com/documentation/file.SASS_REFERENCE.html）</a></li>
+<li>SASS中文文档（<a href="http://sass.bootcss.com/docs/sass-reference/）" target="_blank" rel="external">http://sass.bootcss.com/docs/sass-reference/）</a></li>
+</ul>
+</li>
+</ul>
+  
+	</div>
+		<footer class="article-footer clearfix">
+
+
+
+
+<div class="article-share" id="share">
+
+  <div data-url="http://yoursite.com/2016/09/06/SASS（Syntactically Awesome StyleSheets）/" data-title="iamwelk" data-tsina="null" class="share clearfix">
+  </div>
+
+</div>
+</footer>   	       
+	</article>
+	
+	
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="顯示側邊欄"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目錄</strong>
+  <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#SASS（Syntactically-Awesome-StyleSheets）"><span class="toc-number">1.</span> <span class="toc-text">SASS（Syntactically Awesome StyleSheets）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#特色"><span class="toc-number">1.1.</span> <span class="toc-text">特色</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#语法"><span class="toc-number">1.2.</span> <span class="toc-text">语法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#栗子"><span class="toc-number">1.3.</span> <span class="toc-text">栗子</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#其他"><span class="toc-number">1.4.</span> <span class="toc-text">其他</span></a></li></ol></li></ol>
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隱藏側邊欄"></a></div>
+<aside class="clearfix">
+<div id="authorInfo">
+	
+		<div class="author-logo"></div>		
+	
+	<div class="social-list" class="clearfix">
+		
+		<a href="http://weibo.com/http://weibo.com/p/1005052694436781/home?from=page_100505&amp;mod=TAB&amp;is_all=1#place" target="_blank" title="weibo"></a>
+		
+		
+		
+		<a href="https://github.com/https://github.com/louwenkang" target="_blank" title="github"></a>
+		
+		
+		
+	</div>
+</div>
+
+  
+
+  
+
+  <div class="linkslist">
+  <p class="asidetitle">友情鏈接</p>
+    <ul>
+      <li><a href="http://hexo.io" target="_blank" title="Hexo">Hexo</a></li>
+      <li><a href="http://gengbiao.me" target="_blank" title="coney">coney's Blog</a></li>
+    </ul>
+</div>
+
+
+  
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+    
+            <p class="copyright"> © 2016 
+		
+		<a href="http://yoursite.com" target="_blank" title="louwk">louwk</a>
+		
+            && Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> && Theme by <a href="http://gengbiao.me" target="_blank" title="coney">coney</a>
+            </div>
+</footer>
+    <script src="/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<script>
+    
+        var _bdImg = '4';
+    
+    window._bd_share_config={
+        "common":{
+            "bdSnsKey":{
+
+            },
+            "bdText":"",
+            "bdMini":"2",
+            "bdMiniList":[
+                "qzone",
+                "tsina",
+                "weixin",
+                "renren",
+                "tqq",
+                "tieba",
+                "douban",
+                "sqq",
+                "diandian",
+                "huaban",
+                "youdao",
+                "mail",
+                "ty",
+                "fbook",
+                "twi",
+                "linkedin",
+                "copy",
+                "print"
+            ],
+            "bdPic":"",
+            "bdStyle":"0",
+            "bdSize":"16"
+        },
+        "slide":{
+            "type":"slide",
+            "bdImg":_bdImg,
+            "bdPos":"right",
+            "bdTop":"350"
+        },
+        "image":{
+            "viewList":[
+                "weixin",
+                "qzone",
+                "tsina",
+                "renren",
+                "douban",
+                "tqq"
+            ],
+            "viewText":"分享：",
+            "viewSize":"16"
+        },
+        "selectShare":{
+            "bdContainerClass":null,
+            "bdSelectMiniList":[
+                "weixin",
+                "qzone",
+                "tsina",
+                "renren",
+                "douban",
+                "tqq"
+            ]
+        }
+    };
+    with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+
+
+
+
+  </body>
+</html>
+
